@@ -1,0 +1,154 @@
+1. what is data type in python?
+     A data type is a classification of data that determines the type of value a variable can hold and the
+     operations that can be performed on it.
+
+2. List all the data types that we have in python?
+   # Data Type                 Example Description
+     1.Int                            10                         whole numbers     
+     2.Float                          7.5                        decimal numbers
+     3.Complex                        2+7j                       complex numbers(real+imaginary)
+     4.String                        "hello"                     text(string)
+     5.Boolean                      True,False                   boolean values
+     6.list                         [1,2,3]                      ordered changeble collection
+     7.Touple                       (1,2,3)                      ordered unchangable collection
+     8.dictionary                    {1:"a"}                     key-value pairs
+     9.set                          {1,2,3}                      unordered collection with no duplicates
+
+3. what is the differences between mutable and immutable data types?
+  mutable data type:
+        A mutable data type is a type of data that can be modified or changed after it is created.
+         these data types allow for additions,modified of their contents.
+     ex types: list,dict,set
+        list=[1,2,3]
+        list[0]=50
+        print(list)
+        output:[50,2,3]
+
+   Immutable data type: 
+        An immutable data type is a type of data that cannot be modefied or changed after it is created.
+      ex types: int,float,str,tuple,boolean,None,complex.
+         str="hello"
+         str=str+"world"
+         print(str)
+         output:"hello world"
+
+ 4. what is difference between int,float and complex?
+    int:1.Whole numbers
+        2.no decimal points
+        3.only real parts
+       syntax: x=5
+      Ex: |'1','2','-3'|
+
+    float:1.decimal numbers
+          2.onlt real parts    
+         syntax:x=3.3,0.5
+      Ex: |1.5',-13.5'|
+
+    complex:1.numbers with real and imaginary parts
+            2.used for mathematical operations involving imaginary numbers
+            3.Real and imaginary parts
+          syntax:x=1+3j,-2+3j
+       Ex:|'2+-3j','-3-4j'|
+
+5.which data type is used to represent text in python?
+   The data type used to represent text in python is the string type.
+     ex: name="basheer"
+         print(type (name))   
+       output:<class 'str'>
+
+6. what is the output of type(521) and type("521")?
+    print(type(521))
+    print(type("521"))      
+    output:<class 'int'>
+           <class 'str'>
+
+7. what is the differences between list,tuple and set?
+  List: 
+       1.List is ordered collection of heterogenious elements.
+       2.It is mutable (can change ,add, or remove elements)
+       3.It is allow duplicates values
+       4.It is represented as square brackets " [] "
+     ex: list=[1,2,4]
+
+   Touple:
+        1.Touple is a ordered collection of items.
+        2.It is immutable (cannot be modified)
+        3.It is allow duplicate values      
+        4.It is represented as "()" brackets.
+      ex: touple=(1,2,3)
+   set:
+       1.Set is a unordered collection of unique items.
+       2.It is mutable(can be modified)
+       3.It is does not allow duplicate values.
+       4.It is represented as curly '{}' brackets.
+      ex: set={1,22,3,}                  
+
+8. How is a dictionary different from a list?
+     A dictionary is a collection of key-value pairs, whereas a list is a collection of single values.
+
+9. What is the default data type of a number with a decimal point?
+     Any number written witha decimal point is treated as a 'floating-point' number by default.     
+
+10.Declares variables of type int,float,string amd complex?
+      a=10
+      b=20.0
+      c=2+3j
+      d="basheer"
+      print(type(a))
+      print(type(b))
+      print(type(c))
+      print(type(d))
+
+11.Take any 3 datatypes example and check type of each variable using the type() function?
+     
+      basheer=(1,2,3)
+      srinu=[4,5,6]
+      abdul={1:"sai",2:"kiran"}
+      print(type(basheer))
+      print(type(srinu))
+      print(type(abdul))
+
+12.What happens if you try to add a string and an integer?
+       
+       basheer="hello"
+       print(basheer+" world")
+     output: hello world
+
+13.What is the output of :1.x=[1,2,3]
+                          2.y=(1,2,3)
+                          3.z={1,2,3}
+
+     x=[1,2,3]
+     y=(1,2,3)
+     z={1,2,3}
+     print(x)  
+     print(y)
+     print(z)
+     print(type(x))
+     print(type(y))
+     print(type(z))
+
+   output: [1,2,3]
+           (1,2,3)
+           {1,2,3}
+           <class 'list'>
+           <class 'touple'>
+           <class 'set'>
+
+14.Can you change a value in a touple once it is defined? why or why not?
+    1.No, Tuples in python are immutable,meaning their contents cannot be modified after creation.
+    2.If you try to change a value in a touple,you'll get a 'TypeError':
+       name=(1,2,3)
+       name[0]=5
+       print(name)
+      output: 'TypeError'
+
+15.Is reassignment possible for immutable datatypes?
+    1.Yes, Reassignment is possible for immutable data types.
+    2.Even though the value itself can't be changed,the variable van be reassigned to a new value.
+
+   Ex: basheer="abdulla"
+       basheer="kiran"
+       print(basheer)
+     output: kiran
+     

@@ -1,0 +1,79 @@
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> a=10
+... b=20
+... print(a+b)
+... 30
+... 
+... a=20
+... b=30
+... print(a-b)
+... -10
+... 
+... a=10
+... b=20
+... c=a*b
+... print(a)
+... 10
+... print(b)
+... 20
+... print(c)
+... 200
+... 
+... a=10
+... b=3
+... print(a/b)
+... 3.3333333333333335
+... print(a//b)
+... 3
+... 
+... a=7
+... a=17
+... b=4
+... print(a//b)
+... 4
+... 
+... a=25
+... b=6
+... print(a%b)
+... 1
+... 
+... 
+a=2
+b=3
+print(a**b)
+8
+ 
+x=1
+y=2
+z=3
+print((x+y)*z)
+9
+ 
+var1=450
+var2=375
+print(var2/var1*100)
+83.33333333333334
+ 
+a=10
+b=20
+print(a+b)
+30
+a=40
+print(a+b)
+60
+ 
+a=7
+print(a**2)
+49
+
+length=10
+width=2
+area=length*width
+print(area)
+20
+ 
+x=1
+y=2
+z=3
+print((x+y+z)/3)

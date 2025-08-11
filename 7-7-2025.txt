@@ -1,0 +1,131 @@
+1.Add an integer and float. What is the result’s type?
+    
+     int1=10
+     float1=7.4
+     basheer=int1+float1
+     print(basheer)
+     output: 17.4
+
+2.Create a string and access its:
+              1.First character
+              2.Last character
+              3.A substring from index 2 to 
+              
+ A.   str1="basheer"
+      print(str1[0])
+      print(str1[-1])
+      print(str1[2:5:1])
+     output: b
+             r
+             she
+
+3.Concatenate two strings and print the result.
+A. str1="basheer"
+   str2=" miss you"
+   str=str1+str2
+   print(str)
+  output: basheer miss you
+
+4.Define list. What are the difference between List and Tuple.
+   List:
+        List is a ordered collection of heterogenious elements.
+
+Differences 
+List:        
+      1.List is ordered collection of heterogenious elements.
+       2.It is mutable (can change ,add, or remove elements)
+       3.It is allow duplicates values
+       4.It is represented as square brackets " [] "
+     ex: list=[1,2,4]
+Toule:
+      1.Touple is a ordered collection of items.
+        2.It is immutable (cannot be modified)
+        3.It is allow duplicate values      
+        4.It is represented as "()" brackets.
+      ex: touple=(1,2,3)
+main difference: mutability,list can be changed after creation ,while tuples cannot.
+
+5.Write a programme to print a list in reverse order.
+A. list1=[1,2,"basheer",[3+4j],[6,7,9]]
+   print(list1[::-1])
+  output: [[6,7,9],[(3+4j)],"basheer",2,1]
+
+6.Create a tuple of 4 elements. Print the first and last element.
+A.  tuple1=(1,2,3,4)
+    print(tuple1[0])
+    print(tup;e1[-1])
+   output: 1
+           4
+
+7.Try changing a value in a tuple. What happens?     
+A. tuple1=(1,2,3,4)
+   tuple1[0]=7
+   print(tuple1)  
+  output: TypeError: 'tuple' object does not support item assignment
+
+8.Create a dictionary of 3 students with their marks. Print the dictionary.
+A. dict={"basheer":570,
+         "srinu":590,
+         "abdul":580}  
+   print(dict)
+  output: {'basheer': 570, 'srinu': 590, 'abdul': 580} 
+
+9.Access the marks of one student using their name.
+A.   dict={"basheer":570,
+         "srinu":590,
+         "abdul":580} 
+     marks=dict["basheer"]     
+     print(marks)
+
+   output: 570
+
+10.Update the marks of an existing student.
+A.  dict={"basheer":570,
+         "srinu":590,
+         "abdul":580} 
+    dict["basheer"]=600
+    print(dict)
+  output: {'basheer': 600, 'srinu': 590, 'abdul': 580}  
+
+11.Can I access a key using a value in a dictionary.
+A.   No, you can't directly access a key using its value in a dictionary. However, you can
+   iterate over the dictionary items to find the key:
+
+   for key, value in dict.items():
+    if value == desired_value:
+        print(key)
+
+12.Can I have duplicate values and keys in a dictionary? What happens if I wanted try to duplicate
+   key in a dictionary?
+A.  Values:
+             Yes, dictionaries can have duplicate values. Multiple keys can have the same value.
+       Ex: dict={"a":1,
+                 "b":2,
+                 "c":1}
+           print(dict)   
+          output:{'a': 1, 'b': 2, 'c': 1}
+
+    Keys:
+             No, dictionaries cannot have duplicate keys. If you try to create a dictionary with 
+          duplicate keys, the last key-value pair will override any previous ones.   
+
+       Ex: dict={"a":1,
+                 "a";2,
+                 "b":3}  
+           print(dict)
+          output: {'a': 1,'b': 3}    
+
+13.Print all multiples of 17 using range. Numbers should start from -34 and end below 400.
+A.  list
+    print(list(range(-34,400,17)))
+   output: [-34, -17, 0, 17, 34, 51, 68, 85, 102, 119, 136, 153, 170, 187,
+            204, 221, 238, 255, 272, 289, 306, 323, 340, 357, 374, 391]             
+
+
+
+
+      
+
+                   
+
+

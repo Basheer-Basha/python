@@ -1,0 +1,19 @@
+Elements in html:
+ Ex: <open tag attribute='value'></close tag>
+   It has 3 types they are,
+1.block-level:
+   ->it occupies a entire width from left to right 100% width.
+   ->it is start with new line.
+    Ex: h1 to h6
+        div, p etc...
+
+2.inline-level:
+   ->It doesn't start new line.
+   -> it occupies the space that required.
+   -> it doesn't take width and height.
+ Ex: <a></a>,<span></span>(tags).
+3.inline-block-level:
+   ->It doesn't start new line.
+   -> it occupies the space that required.
+   -> it access the width and height.
+ Ex: input, button, image, vedio, audio(tags).
