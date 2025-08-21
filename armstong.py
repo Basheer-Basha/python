@@ -1,4 +1,4 @@
-# #method 1 
+#method-1 
 n=int(input("enter the number:"))
 n1=n
 sum=0
@@ -40,4 +40,5 @@ def armstrong(n):
         print("not")           
     
 n=int(input("enter the number"))    
+
 armstrong(n)
