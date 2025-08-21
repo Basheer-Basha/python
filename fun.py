@@ -129,6 +129,40 @@
 #     return 45
 # print(bas(22))    
 
+
+# Function -> scope (LEGB)
+
+# 1.Global scope
+# 2.Builtin scope
+# 3.local scope
+# 4.Enclosed scope
+
+#Global scope-> if number is given in outside the function then we can call the variable in whenevr you required
+num1=2
+if num1>0:
+    print(num1)
+print(num1)    
+
+#local scope-> if a number is given inside the function is called local scope.
+def num():
+    num2=10
+    print(num2)
+num()    
+
+#enclosed scope-> it is  combination of both local and global scope.
+def num1():
+    n=2
+    print(n)
+    def num2():
+        print(n)
+    num2()    
+
+num1()
+
+#built in scope-> already python code is there we can only print the operation.
+
+print(len("basheer"))
+
     
     
     
