@@ -59,4 +59,8 @@ print(a2.made_in)
 
 a1.discribe()
 a2.discribe()
+
+#2. Define self---
+self is a reference to the instance of the class. it is used to access instance variables 
+and methods within the class
         
